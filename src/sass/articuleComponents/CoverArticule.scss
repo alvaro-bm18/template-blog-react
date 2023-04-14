@@ -1,0 +1,20 @@
+@import '../src/fonts.scss';
+@import '../src/vars.scss';
+
+.cover-articule {
+    position: relative;
+    display: block;
+    width: 100%;
+
+    img {
+        width: inherit;
+        height: 280pt;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 8pt;
+        font-family: 'RobotoCondensed-Regular';
+        color: $semi-dark-color;
+    }
+}

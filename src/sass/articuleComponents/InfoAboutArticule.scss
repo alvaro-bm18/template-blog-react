@@ -1,0 +1,49 @@
+@import '../src/fonts.scss';
+@import '../src/vars.scss';
+
+.info-articulo-itself {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10pt;
+    padding-bottom: 10pt;
+
+    p {
+        position: relative;
+        font-size: 10pt;
+        padding: 4pt 4pt 4pt 18pt;
+        border-radius: 2pt;
+        color: $semi-dark-color;
+        font-family: 'RobotoCondensed-Regular';
+
+        svg {
+            position: absolute;
+            left: 4pt;
+            top: 4pt;
+            font-size: 12pt;
+        }
+    }
+
+    p:nth-child(1) {
+        background-color: $yellow-soft;
+
+        svg {
+            color: $second-color;
+        }
+    }
+
+    p:nth-child(2) {
+        background-color: $cyan-soft;
+
+        svg {
+            color: $cyan-hard;
+        }
+    }
+
+    p:nth-child(3) {
+        background-color: $sea-soft;
+
+        svg {
+            color: $sea-hard;
+        }
+    }
+}

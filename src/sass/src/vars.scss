@@ -1,0 +1,31 @@
+/* COLORS */
+$bg-app: lightblue;
+$light-gray: #EEE;
+$light-color: white;
+$dark-color: #000;
+$semi-dark-color: #555;
+$second-color: gold;
+$blue-color: #00BFFF;
+
+$yellow-soft: LemonChiffon;
+$yellow-hard: $second-color;
+
+$cyan-soft: LightCyan;
+$cyan-hard: LightBlue;
+
+$sea-soft: Lavender;
+$sea-hard: MediumOrchid;
+
+/* SIZES */
+$ws: 100vw;
+$hs: 100vh;
+
+$app-w: 90%;
+$fit: fit-content;
+
+/* TAGS */
+a, button{
+    cursor: pointer;
+}
+a{text-decoration: none;}
+button{border: none;}

@@ -1,0 +1,42 @@
+@import './src/vars.scss';
+
+.footer-articule{
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: $dark-color;
+
+    .row-footer-art{ 
+        flex: 1 1;
+        padding: 30pt 10pt 10pt;
+        h1{
+            margin-bottom: 10px;
+            color: $light-color;
+        }
+        h1:first-letter{
+            box-shadow: 0 3pt 0 0 $second-color;
+        }
+        ul{
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            gap: 10px;
+            margin: 0;
+            padding: 10px 0;
+            li{
+                a{
+                    position: relative;
+                    display: block;
+                    font-size: 10pt;
+                    color: $dark-color;
+                    background-color: $second-color;
+                    padding: 4px 8px;
+                    border-radius: 15px;
+                }
+            }
+        }
+        p{
+            color: $light-color;
+        }
+    }
+}

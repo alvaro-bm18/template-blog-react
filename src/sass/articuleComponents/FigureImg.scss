@@ -1,0 +1,104 @@
+@import '../src/fonts.scss';
+@import '../src/vars.scss';
+
+$margin: 8px;
+$img-w: 140px;
+$img-h: 160px;
+
+.figure-articule {
+    position: relative;
+    display: block;
+    padding: 8px;
+    border-radius: 4pt;
+    background-color: $light-gray;
+    z-index: 100;
+
+    img{
+        cursor: pointer;
+    }
+
+    figcaption {
+        font-family: 'RobotoCondensed-Regular';
+        font-size: 8pt;
+        color: $semi-dark-color;
+    }
+}
+
+.fig-hzt {
+    width: $img-w;
+    height: fit-content;
+
+    img {
+        width: $img-w - 16px;
+        height: $img-h - 16px;
+    }
+}
+
+.fig-vtl {
+    width: $img-h;
+    height: fit-content;
+
+    img {
+        width: $img-h - 16px;
+        height: $img-w - 16px;
+    }
+}
+
+.figure-lightbox {
+    position: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 200;
+
+    img{
+        cursor: pointer;
+    }
+
+    figcaption {
+        font-family: 'RobotoCondensed-Regular';
+        font-size: 12pt;
+        color: $semi-dark-color;
+        padding: 4pt 10pt;
+        background-color: $light-gray;
+        max-width: 20%;
+    }
+}
+
+.fig-hzt-lb {
+    img {
+        width: $img-w * 3 - 16px;
+        height: $img-h * 3 - 16px;
+    }
+}
+
+.fig-vtl-lb {
+    img {
+        width: $img-h * 3 - 16px;
+        height: $img-w * 3 - 16px;
+    }
+}
+
+
+.fig-left,
+.fig-right {
+    margin-bottom: $margin;
+}
+
+.fig-left {
+    float: left;
+    margin-right: $margin;
+}
+
+.fig-right {
+    float: right;
+    margin-left: $margin;
+}

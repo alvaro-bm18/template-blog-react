@@ -1,0 +1,51 @@
+@import '../src/fonts.scss';
+@import '../src/vars.scss';
+
+.contents-articule {
+    position: relative;
+    display: block;
+    float: left;
+    width: 160pt;
+    height: $fit;
+    cursor: pointer;
+    margin: 0 8pt 4pt 0;
+    padding: 10pt;
+    border: 2pt solid $semi-dark-color;
+    transition: 0.4s;
+    z-index: 200;
+
+    .menu-contents-art {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 0;
+        transition: 0.4s;
+        overflow: hidden;
+
+        .content-menu {
+            position: absolute;
+            display: block;
+            opacity: 0;
+            top: -100%;
+            padding-top: 10pt;
+            height: fit-content;
+            list-style: none;
+            transition: 0.8s;
+
+            li {
+                a {
+                    position: relative;
+                    display: block;
+                    padding: 2pt 0;
+                    font-size: 10pt;
+                    font-family: 'RobotoCondensed-Regular';
+                    color: $dark-color;
+                }
+
+                a:hover {
+                    color: $blue-color;
+                }
+            }
+        }
+    }
+}

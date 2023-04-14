@@ -1,0 +1,43 @@
+@import './src/fonts.scss';
+@import './src/vars.scss';
+
+#share-articule-options {
+    $separation: 18px;
+    $width: 28px;
+    position: relative;
+    display: block;
+    width: calc(($separation * 4) + ($width * 5));
+    height: $width;
+    margin-right: auto;
+
+    .option-share,
+    #option-share-button {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: $width;
+        height: $width;
+        background-color: $light-color;
+        border-radius: 100%;
+        transition: 0.4s;
+    }
+
+    .option-share {
+        transform: scale(0.2);
+
+        svg {
+            color: $semi-dark-color;
+        }
+    }
+
+    .option-share:hover>svg {
+        color: $blue-color;
+    }
+
+    #option-share-button {
+        z-index: 10;
+    }
+}

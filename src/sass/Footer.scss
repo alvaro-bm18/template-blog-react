@@ -1,0 +1,14 @@
+.footer-app{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    .title-footer{
+        margin: 0;
+        padding: 40px 0 20px;
+    }
+    .small{
+        margin: 0;
+        font-size: 9pt;
+    }
+} 

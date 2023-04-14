@@ -1,0 +1,11 @@
+@import './src/fonts.scss';
+@import './src/vars.scss';
+
+.articule-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.secction-title{
+    margin-top: 24pt;
+}

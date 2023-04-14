@@ -1,0 +1,56 @@
+@import './src/vars.scss';
+
+.newsletter {
+    $border-radius: 12pt;
+    width: 100%;
+    height: 180px;
+    background-size: 100% 100%;
+    background-image: url('../img-example-1.jpg');
+
+    form {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.4);
+
+        label{
+            color: $light-color;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        input[type="text"],
+        button {
+            height: fit-content;
+            padding: 8px 12px;
+            font-size: 12pt;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: rgba(250,250,250,0.2);
+            backdrop-filter: blur(5px);
+            border-style: solid;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            border-radius: $border-radius 0 0 $border-radius;
+            border-width: 1pt 0 1pt 1pt;
+            border-color: white transparent white white;
+        }
+        
+        button {
+            width: fit-content;
+            border-radius: 0 $border-radius $border-radius 0;
+            border-width: 1pt;
+            border-color: white;
+        }
+        button:hover{
+            background-color: rgba(250,250,250,0.4);
+        }
+    }
+}

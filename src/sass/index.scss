@@ -1,0 +1,22 @@
+@import './src/vars.scss';
+
+/*
+    GENERAL APP
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: $ws;
+    height: $fit;
+    background-color: $bg-app;
+}
+
+#root {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
