@@ -1,4 +1,3 @@
-@import '../src/fonts.scss';
 @import '../src/vars.scss';
 
 .info-articulo-itself {
@@ -13,8 +12,7 @@
         padding: 4pt 4pt 4pt 18pt;
         border-radius: 2pt;
         color: $semi-dark-color;
-        font-family: 'RobotoCondensed-Regular';
-
+        
         svg {
             position: absolute;
             left: 4pt;

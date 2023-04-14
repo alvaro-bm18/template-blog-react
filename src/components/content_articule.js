@@ -1,4 +1,4 @@
-{
+const DATA = {
     "title": "💻 template de blog usando react.js y sass",
     "info": {
         "date": "12/01/2023",
@@ -72,3 +72,5 @@
         }
     ]
 }
+
+export default DATA;

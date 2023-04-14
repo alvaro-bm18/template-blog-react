@@ -1,8 +1,6 @@
-@import './src/fonts.scss';
 @import './src/vars.scss';
 
 .ttl-secction-aside {
-    font-family: 'BreeSerif-Regular';
     padding-bottom: 10pt;
 }
 
@@ -25,12 +23,10 @@
 .list-menu-aside>li>a {
     position: relative;
     display: block;
-    font-family: 'RobotoCondensed-Regular';
     font-size: 10pt;
     color: $semi-dark-color;
     padding: 6pt 0;
     span{
-        font-family: 'RobotoCondensed-Bold';
         color: $dark-color;
     }
 }

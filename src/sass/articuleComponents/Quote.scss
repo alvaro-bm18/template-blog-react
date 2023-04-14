@@ -1,10 +1,8 @@
-@import '../src/fonts.scss';
 @import '../src/vars.scss';
 
 .quote{
     position: relative;
     display: block;
-    font-family: 'RobotoCondensed-Regular';
     padding: 8pt 12pt;
     margin: 24px 0;
     background-color: $sea-soft;
@@ -15,7 +13,6 @@
         display: block;
         padding-top: 5pt;
         text-align: right;
-        font-family: 'RobotoCondensed-Bold';
         color: $sea-hard;
     }
 }

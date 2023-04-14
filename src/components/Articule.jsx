@@ -7,7 +7,7 @@ import Quote from './articuleComponents/Quote';
 
 import setIDfromTitle from './scripts/prepareID.js';
 
-import DATA from './content_articule.json';
+import DATA from './content_articule.js';
 
 function Articule() {
     const TITLES = DATA.content_articule.map(secc => secc.title);
