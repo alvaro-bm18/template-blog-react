@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaElementor } from "react-icons/fa";
 import { FaCommentAlt } from "react-icons/fa";
 

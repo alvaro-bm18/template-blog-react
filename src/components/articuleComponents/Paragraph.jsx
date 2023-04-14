@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/Paragraph.scss';
 import ContentList from './ContentList';
 import FigureImg from "./FigureImg";

@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FaFacebookMessenger } from 'react-icons/fa';

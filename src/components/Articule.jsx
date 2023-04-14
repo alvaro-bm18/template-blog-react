@@ -1,3 +1,4 @@
+import React from 'react';
 import '../sass/Articule.scss';
 import TitleArticule from "./articuleComponents/TitleArticule";
 import InfoAboutArticle from "./articuleComponents/InfoAboutArticule";

@@ -1,3 +1,4 @@
+import React from 'react';
 import '../sass/Header.scss';
 
 function Header() {

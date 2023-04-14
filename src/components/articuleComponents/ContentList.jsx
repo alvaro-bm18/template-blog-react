@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/ContentList.scss';
 import setHrefArray from '../scripts/prepareHREF.js';
 

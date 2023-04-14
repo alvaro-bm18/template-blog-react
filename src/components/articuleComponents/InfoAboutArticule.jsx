@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/InfoAboutArticule.scss';
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaCommentAlt } from "react-icons/fa";

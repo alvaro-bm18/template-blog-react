@@ -6,7 +6,7 @@ const DATA = {
         "views": "12K"
     },
     "cover": {
-        "src": "../../src/img-example-2.jpg",
+        "src": "./img-example-2.jpg",
         "alt": "portada rescatada de Pixelbay",
         "caption": "Esta imagen fue tomada del banco de imagenes Pixelbay"
     },
@@ -38,7 +38,7 @@ const DATA = {
                 {
                     "type": "img",
                     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaeadipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaeadipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quae",
-                    "imgSrc": "../../src/img-example-2.jpg",
+                    "imgSrc": "./img-example-2.jpg",
                     "imgAlt": "texto if the image can be found",
                     "imgText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
                     "imgPos": "left"
@@ -59,7 +59,7 @@ const DATA = {
                 {
                     "type": "img",
                     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaeadipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quaeadipisicing elit. Magnam aliquid eaque est totam quod? Voluptatem magni impedit, vel in soluta iste quae",
-                    "imgSrc": "../../src/img-example-1.jpg",
+                    "imgSrc": "./img-example-1.jpg",
                     "imgAlt": "texto if the image can be found",
                     "imgText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
                     "imgPos": "right"

@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/FigureImg.scss';
 
 function FigureImg({ src, alt, text, position }) {

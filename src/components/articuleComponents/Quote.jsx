@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/Quote.scss';
 
 function QuoteArticule({ quote, autor }) {

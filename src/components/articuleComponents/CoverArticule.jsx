@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/CoverArticule.scss';
 
 function CoverArticule({ img }) {

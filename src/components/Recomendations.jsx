@@ -1,4 +1,5 @@
-import img from '../img-example-1.jpg';
+import React from 'react';
+import img from '../../public/img-example-1.jpg';
 import '../sass/Recomendations.scss';
 
 function Recomendations() {

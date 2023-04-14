@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../sass/articuleComponents/TitleArticule.scss';
 function TitleArticule({ text }) {
     return (
